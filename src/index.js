@@ -5,11 +5,17 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <div><App name="Waqas Wahid" age="23"/></div>,
   document.getElementById('root')
 );
+
+/*
+ReactDOM.render(
+  React.createElement('div', null, "Hello world with createElement"),
+  //<div><App/></div>, this code is for accessing app.js components
+  document.getElementById('root')
+);
+*/
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
